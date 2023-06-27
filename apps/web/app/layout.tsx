@@ -13,7 +13,6 @@ export default function RootLayout ({
       <body className='relative flex items-start dark:bg-black text-gray-700 dark:text-gray-200'>
         <div>
           <Navbar />
-
           {children}
         </div>
       </body>
